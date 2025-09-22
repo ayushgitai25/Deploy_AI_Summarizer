@@ -9,5 +9,5 @@
 
 2. Add .streamlit/secrets.toml for local testing purpose.(.gitignore)
 3. Push files to a repo.
-4. On streamlit cloud: Go to Advanced Setting=> Set GROQ_API_KEY = "groq_api_key"
+4. On streamlit cloud: Go to Advanced Settings => Set GROQ_API_KEY = "groq_api_key"
 5. Deploy!!
