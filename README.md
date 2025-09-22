@@ -1,6 +1,6 @@
 ## To deploy on streamlit:
 1. Add secrets like in app.py:
-     groq_api_key = st.secrets.get("GROQ_API_KEY", os.getenv("GROQ_API_KEY", ""))
+    groq_api_key = st.secrets.get("GROQ_API_KEY", os.getenv("GROQ_API_KEY", ""))
     if not groq_api_key:
         st.error("❌ GROQ_API_KEY is missing! Please set it in Streamlit secrets or your environment.")
         st.stop()
